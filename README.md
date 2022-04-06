@@ -13,7 +13,8 @@
 
 comandos :
 
-php artisan serve
+é necessário criar um banco de dados e adicionar o banco ao projeto para para conectar
 
-php artisan make:migrations
+depois de realizar a migration
 
+rodar comando: php artisan serve
