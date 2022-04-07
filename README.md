@@ -9,12 +9,18 @@
 
 ## Sobre a Aplicação
 
-#Como Rodar
+# backEndLaravel
 
-comandos :
+## criando um modelo juntamente com uma migration (migração). Para fazer isso, você precisa executar:
 
-é necessário criar um banco de dados e adicionar o banco ao projeto para para conectar
+php artisan make:model Usuario -m
 
-depois de realizar a migration
+Em seguida, você pode abrir a pasta do projeto em seu editor de texto preferido e modificar o arquivo .env para inserir suas credenciais de banco de dados adequadas. Isso permitirá que o aplicativo se conecte corretamente ao banco de dados recém-criado:
 
-rodar comando: php artisan serve
+## Em seguida, você executará a migração usando o seguinte comando:
+
+php artisan migrate
+
+#rodar 
+
+php artisan serve
